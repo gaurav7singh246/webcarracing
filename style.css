@@ -1,0 +1,30 @@
+body { margin: 0; overflow: hidden; background: linear-gradient(to bottom, #87CEEB, #1E90FF); }
+canvas { display: block; }
+#hud, #score, #distance, #level, #car-type {
+    position: absolute;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+#hud { top: 10px; }
+#score { top: 40px; }
+#distance { top: 70px; }
+#level { top: 100px; }
+#car-type { top: 130px; }
+#splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: gold;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    z-index: 10;
+}
